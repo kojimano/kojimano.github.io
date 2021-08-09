@@ -22,7 +22,7 @@ Idea Profile picture (rotate) RGB => Mesh => Depth => Langauge => Style Transfer
               <p align="center">
                 <name>Noriyuki Kojima</name>
               </p>
-              <p>I am a second year CS Ph.D student at Cornell University, working with <a href="https://yoavartzi.com/">Yoav Artzi</a> in the intersection of natural language processing and computer vision. I am located at <a href="https://www.tech.cornell.edu/">Cornell Tech</a>. I am grateful that My Ph.D. study is supported by Cornell Hopcroft Fellowship (2019-2020) and <a href="https://masason-foundation.org/en/">Masason Fellowship</a> (2020~). </p>
+              <p>I am a rising third year CS Ph.D student at Cornell University, working with <a href="https://yoavartzi.com/">Yoav Artzi</a> in the intersection of natural language processing and computer vision. I am located at <a href="https://www.tech.cornell.edu/">Cornell Tech</a>. I am grateful that My Ph.D. study is supported by Cornell Hopcroft Fellowship (2019-2020) and <a href="https://masason-foundation.org/en/">Masason Fellowship</a> (2020~). </p>
 
               <p>
                  Previously, I was a Research Specialist at Princeton University in 2019 working with <a href="https://www.cs.princeton.edu/~jiadeng/">Jia Deng</a>; I graduated from the University of Michigan in 2018 with B.S.E in Computer Science where I worked with <a href="https://www.cs.princeton.edu/~jiadeng/">Jia Deng</a>, <a href="https://web.eecs.umich.edu/~mihalcea/">Rada Mihalcea</a> and <a href="https://cpsc.yale.edu/people/dragomir-radev">Dragomir Radev</a>; I was a software engineer intern in Facebook Applied Machine Learning team in 2017 where I was supervised by <a href="https://research.fb.com/people/pino-juan/">Juan Pino</a>.
@@ -41,34 +41,77 @@ Idea Profile picture (rotate) RGB => Mesh => Depth => Langauge => Style Transfer
             </td>
           </tr>
         </table>
+
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <tr>
             <td width="100%" valign="middle">
-              <heading>Ph.D. Research</heading>
+              <heading> Research Interests</heading>
               <p>
-                There are three major topics I am interested in for my Ph.D. studies, and I tend to work on the intersection.
+                My research is focused on three major topics
                 <ol>
-                  <li>(Natural) Language Generation</li>
-                  <li> Vision and Language, Robotics, and beyond</li>
-                  <li> NLP <span>&#8745;</span> Human Feedback / Reinforcement Learning </li>
+                  <li> Natural language understanding and generation</li>
+                  <li> Computer vision, especially its intersection to natural language processing</li>
+                  <li> Human-in-loop learning</li>
                 </ol>
 
-              </p>
-              <p>
-                Here are some papers ...
               </p>
             </td>
           </tr>
         </table>
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tr>
+              <td width="100%" valign="middle">
+                <heading> Research Papers</heading>
+              </td>
+            </tr>
+          </table>
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+  
+
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+          <tr onmouseout="mipnerf_stop()" onmouseover="mipnerf_start()" å>
+
+            <!--
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='mipnerf_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="videos/tacl2021_continual_generation.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/mipnerf_ipe_yellow.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function mipnerf_start() {
+                  document.getElementById('mipnerf_image').style.opacity = "1";
+                }
+
+                function mipnerf_stop() {
+                  document.getElementById('mipnerf_image').style.opacity = "0";
+                }
+                mipnerf_stop()
+              </script>
+            </td>
+             -->
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Continual Learning for Grounded Instruction Generation by Observing Human Following Behavior </papertitle>
+              <br>
+              <strong>Noriyuki Kojima</strong>,
+              <a href="http://alanesuhr.com/">Alane Suhr</a>,
+              <a href="https://yoavartzi.com/">Yoav Artzi</a>
+              <br>
+              <em>TACL (To appear)</em>, 2021
+              <p></p>
+              <p>  We study continual learning for natural language instruction generation, by observing human users' instruction execution. </p>
+            </td>
+          </tr>
+
           <tr onmouseout="porlight_stop()" onmouseover="porlight_start()">
             <td valign="middle" width="75%">
-
               <a href="https://arxiv.org/abs/2005.01678">
-                <papertitle>What is Learned in Visually Grounded Neural Syntax Acquisitiond</papertitle>
+                <papertitle>What is Learned in Visually Grounded Neural Syntax Acquisition</papertitle>
               </a>
               <br>
               <strong>Noriyuki Kojima</strong>,
@@ -81,29 +124,7 @@ Idea Profile picture (rotate) RGB => Mesh => Depth => Langauge => Style Transfer
               <p>  Answering the question of what does grounded unsupervised constituency parser Visually Grounded Neural Syntax Learner (Shi et al., 2019) learn. </p>
             </td>
           </tr>
-        </table>
 
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <td width="100%" valign="middle">
-          <heading>Undergraduate Research</heading>
-          <p>
-            I was widely intersted in Computer Vision and NLP in the context of not only machine learning but also hand-coded algorithms. Some topics I worked on for research were ...
-            <ol>
-             <li> Computer Vision:  3D-Reconstrcution, Mesh-Generation</li>
-             <li> NLP: Neural Machine Translation, Specialized Token Embeddings</li>
-             <li> Computer Vision <span>&#8745;</span>  NLP: Phrase Localization on images, Multi-modal QA system </li>
-             <li> Computer Vision  <span>&#8745;</span> Robotics:  Autnomous Indoor Navigation</li>
-           </ol>
-           Here are some papers ...
-          </p>
-
-          </td>
-        </table>
-
-        <!--
-        Research Enmeration
-        -->
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <tr onmouseout="porlight_stop()" onmouseover="porlight_start()">
             <td valign="middle" width="75%">
               <a href="https://oasis.cs.princeton.edu/">
@@ -134,7 +155,7 @@ Idea Profile picture (rotate) RGB => Mesh => Depth => Langauge => Style Transfer
               <a href="https://www.cs.princeton.edu/~jiadeng/">Jia Deng</a>,
               <a href="https://web.eecs.umich.edu/~mihalcea/">Rada Mihalcea</a>
               <br>
-              <em>CoNLL</em>, 2019 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+              <em>CoNLL</em>, 2019 
               <p></p>
               <p> Representing character names by adding social networks of discourse in embedding objectives. </p>
             </td>
@@ -205,7 +226,9 @@ Idea Profile picture (rotate) RGB => Mesh => Depth => Langauge => Style Transfer
               </p>
             </td>
           </tr>
+
         </table>
+
 
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
@@ -214,7 +237,7 @@ Idea Profile picture (rotate) RGB => Mesh => Depth => Langauge => Style Transfer
               <br>
               <p align="right">
                 <font size="2">
-                  Last updated: October 2019 <br>
+                  Last updated: August 2021 <br>
                   The template was borrowed from <a href="https://jonbarron.info/">Jon Barron</a>'s <a href="https://github.com/jonbarron/jonbarron_website">implementaion</a>.
                 </font>
               </p>
