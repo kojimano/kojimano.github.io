@@ -19,10 +19,11 @@
               <p style="text-align:center">
                 <name>Noriyuki Kojima</name>
               </p>
-              <p> I am a rising third year CS Ph.D student at Cornell University, working with <a href="https://yoavartzi.com/">Yoav Artzi</a>. I am located at <a href="https://www.tech.cornell.edu/">Cornell Tech</a>. I am grateful that My Ph.D. study is supported by Cornell Hopcroft Fellowship (2019-2020) and <a href="https://masason-foundation.org/en/">Masason Fellowship</a> (2020~2022). 
+              <p> I am a fourth-year CS Ph.D student at Cornell University, working with <a href="https://yoavartzi.com/">Yoav Artzi</a>. I am located at <a href="https://www.tech.cornell.edu/">Cornell Tech</a>. I am grateful that My Ph.D. study is supported by Cornell Hopcroft Fellowship (2019-2020) and <a href="https://masason-foundation.org/en/">Masason Fellowship</a> (2020~2022). 
               </p>
               <p>
-                Previously, I was a Research Specialist at Princeton University in 2019, working with <a href="https://www.cs.princeton.edu/~jiadeng/">Jia Deng</a>; I did my undergraduate at the University of Michigan from 2015 to 2018 with B.S.E in Computer Science where I worked with <a href="https://www.cs.princeton.edu/~jiadeng/">Jia Deng</a>, <a href="https://web.eecs.umich.edu/~mihalcea/">Rada Mihalcea</a> and <a href="https://cpsc.yale.edu/people/dragomir-radev">Dragomir Radev</a>; I was a software engineer intern in Facebook Applied Machine Learning team in 2017, where I was supervised by <a href="https://research.fb.com/people/pino-juan/">Juan Pino</a>.
+                Previously, I was a Research Scientist Intern at Hugging Face in summer 2022, working with <a href="https://rush-nlp.com/h">Sasha Rush</a>. and <a href="https://huggingface.co/VictorSanh">Victor Sanh</a>;                
+                I was a Research Specialist at Princeton University in 2019, working with <a href="https://www.cs.princeton.edu/~jiadeng/">Jia Deng</a>; I did my undergraduate at the University of Michigan from 2015 to 2018 with B.S.E in Computer Science where I worked with <a href="https://www.cs.princeton.edu/~jiadeng/">Jia Deng</a>, <a href="https://web.eecs.umich.edu/~mihalcea/">Rada Mihalcea</a> and <a href="https://cpsc.yale.edu/people/dragomir-radev">Dragomir Radev</a>; I was a Software Engineer Intern in the Facebook Applied Machine Learning team in summer 2017, where I was supervised by <a href="https://research.fb.com/people/pino-juan/">Juan Pino</a>.
               </p>
               <p style="text-align:center">
                 <a href="nk654@cornell.edu">Email</a> &nbsp/&nbsp
@@ -51,6 +52,42 @@
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <!-- Markup-to-Image Diffusion Models with Scheduled Sampling -->
+          <tr onmouseout="mipnerf_stop()" onmouseover="mipnerf_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='mipnerf_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/molecules_rendering.gif" type="video/mp4" style=padding-top:20px;>
+                </video></div>
+                <img src='images/molecules_rendering.gif' width="160" style=padding-top:20px;>
+              </div>
+              <script type="text/javascript">
+                function mipnerf_start() {
+                  document.getElementById('mipnerf_image').style.opacity = "1";
+                }
+                function mipnerf_stop() {
+                  document.getElementById('mipnerf_image').style.opacity = "0";
+                }
+                mipnerf_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2210.05147">
+                <papertitle>Markup-to-Image Diffusion Models with Scheduled Sampling</papertitle>
+              </a>
+              <br>
+              <a href=https://yuntiandeng.com//>Yuntian Deng</a>,
+              <strong>Noriyuki Kojima</strong>,
+              <a href="http://rush-nlp.com/">Alexander Rush</a>,
+              <br>
+              <br>
+              <a href="https://huggingface.co/spaces/yuntian-deng/latex2im">demo</a>
+              /
+              <a href="https://arxiv.org/abs/2210.05147">arXiv</a>
+              <p> Studying diffusion models for markup-to-image generation.</p>
+            </td>
+          </tr> 
+          
           <!-- Continual Learning for Grounded Instruction Generation by Observing Human Following Behavior -->
           <tr onmouseout="mipnerf_stop()" onmouseover="mipnerf_start()"  bgcolor="#ffffd0">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -128,7 +165,7 @@
               /
               <a href="https://github.com/lil-lab/vgnsl_analysis">code</a>
               <p></p>
-              <p>Exploring what is learned by the unsupervised vision and language constituency parser via extreme simplification of the model architecture.</p>
+              <p>Exploring what is learned by the unsupervised vision and language constituency parser via extreme simplification of model architectures.</p>
             </td>
           </tr> 
 
@@ -173,7 +210,7 @@
               /
               <a href="https://github.com/princeton-vl/oasis">code</a>
               <p></p>
-              <p>Open Annotations of Single Image Surfaces (OASIS): a dataset for images in the wild with dense annotations of detailed 3D geometry.</p>
+              <p>Presenting Open Annotations of Single Image Surfaces (OASIS): a dataset for images in the wild with dense annotations of detailed 3D geometry.</p>
             </td>
           </tr> 
 
@@ -352,12 +389,11 @@
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/reviewer.jpg" width="160"></td>
             <td width="75%" valign="center">
-              Reviewer:  NAACL 2021, <a href="https://2021.aclweb.org/blog/reviewer-list/">ACL2021</a> <font color="red"><strong>(Outstanding Reviewer)</strong></font>, ACL Rolling Review 2021 (Oct, Nov)  
+              Reviewer:  ACL2020, NAACL 2021, <a href="https://2021.aclweb.org/blog/reviewer-list/">ACL2021</a> <font color="red"><strong>(Outstanding Reviewer)</strong></font>, ACL Rolling Review 2021 - 2022
               <br><br>
 
               <a href="https://alvr-workshop.github.io/">Program Committee: 2nd Workshop on Advances in Language and Vision Research (ALVR)</a>
               <br><br>
-              Reviewer: ACL2020 
             </td>
           </tr>
       </td>
